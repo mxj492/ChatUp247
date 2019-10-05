@@ -1,0 +1,21 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "chatapp",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "juan",
+    "password": "juan",
+    "database": "chatapp",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mysql"
+  }
+}
